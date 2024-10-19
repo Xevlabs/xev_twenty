@@ -1,0 +1,10 @@
+[build]
+
+builder = "DOCKERFILE"
+dockerfilePath = "/docker/Dockerfile"
+
+[deploy]
+
+healthcheckPath = "/open-api/metadata"
+sleepApplication = "false"
+healthcheckTimeout = "300"
