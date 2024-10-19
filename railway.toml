@@ -1,7 +1,7 @@
 [build]
 
 builder = "DOCKERFILE"
-dockerfilePath = "/docker/Dockerfile"
+dockerfilePath = "./packages/twenty-docker/twenty/Dockerfile"
 
 [deploy]
 
