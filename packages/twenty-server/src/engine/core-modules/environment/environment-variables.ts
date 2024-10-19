@@ -104,11 +104,7 @@ export class EnvironmentVariables {
 
   // Database
   @IsDefined()
-  @IsUrl({
-    protocols: ['postgres'],
-    require_tld: false,
-    allow_underscores: true,
-  })
+  @IsString()
   PG_DATABASE_URL: string;
 
   @CastToBoolean()
