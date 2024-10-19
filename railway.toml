@@ -7,4 +7,5 @@ dockerfilePath = "./packages/twenty-docker/twenty/Dockerfile"
 
 healthcheckPath = "/open-api/metadata"
 sleepApplication = false
-healthcheckTimeout = 300
+healthcheckTimeout = 600
+restartPolicyMaxRetries = 20
