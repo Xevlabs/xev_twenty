@@ -6,5 +6,5 @@ dockerfilePath = "./packages/twenty-docker/twenty/Dockerfile"
 [deploy]
 
 healthcheckPath = "/open-api/metadata"
-sleepApplication = "false"
-healthcheckTimeout = "300"
+sleepApplication = false
+healthcheckTimeout = 300
